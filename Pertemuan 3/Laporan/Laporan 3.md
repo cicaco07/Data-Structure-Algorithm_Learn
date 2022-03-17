@@ -198,7 +198,11 @@ hitungLuas() dan hitungKeliling().
 ## 3.5 Latihan Praktikum 
 
 ### NO.1
-##### Screenshot Hasil 
+##### Screenshot Hasil
+<img src="img/../../img/Latihan%201.1.png">
+<img src="img/../../img/Latihan%201.2.png">
+<img src="img/../../img/Latihan%201.3.png">
+<img src="img/../../img/Latihan%201.4.png">
 
 ### NO.2
 #### Screenshot Hasil 
