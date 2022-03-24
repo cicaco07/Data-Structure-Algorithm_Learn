@@ -1,3 +1,5 @@
+package minggu5;
+
 public class Faktorial{
     public int nilai;
 

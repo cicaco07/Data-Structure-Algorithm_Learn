@@ -1,3 +1,5 @@
+package minggu5;
+
 import java.util.Scanner;
 public class MainFaktorial{
     public static void main(String[] args){
@@ -18,11 +20,19 @@ public class MainFaktorial{
         for (int i=0; i<elemen; i++){
             System.out.println("Faktorial dari nilai "+fk[i].nilai+" adalah : "+fk[i].faktorialBF(fk[i].nilai));
         }
+
+        long time = System.currentTimeMillis();
+        long start = 0;
+        long elapsedtime = time - start;
+        System.out.println("Waktu" + String.valueOf(elapsedtime)+ "ms");
+        long start1 = System.currentTimeMillis();
+
         System.out.println("====================================");
         System.out.println("Hasil Faktorial dengan Divide and Conquer");
         for (int i=0; i<elemen; i++){
             System.out.println("Faktorial dari nilai "+fk[i].nilai+" adalah : "+fk[i].faktorialDC(fk[i].nilai));
         }
         System.out.println("===================================");
+        
     }
 }
