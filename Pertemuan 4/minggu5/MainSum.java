@@ -6,7 +6,7 @@ public class MainSum {
         Scanner sc = new Scanner(System.in);
         int el = 0;
         System.out.println("===========================================");
-        System.out.println("Program Menghitung Keuntungan Total (Satuan Juta, Misal 5.9)");
+        System.out.println("Program Menghitung Keuntungan Total ");
         System.out.print("Masukkan jumlah perusahaan : ");
         int jumlahPrs = sc.nextInt();
         for (int i=0; i<jumlahPrs; i++){
