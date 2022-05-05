@@ -68,7 +68,15 @@ public class Stack {
         }
     }
 
-    /*public void getMin(){
-        
-    }*/
+    public void getMin(){
+        double minHarga = data[0].harga;
+        int idx = 0;
+        for (int i=0; i<= top; i++){
+            if(minHarga > data[i].harga){
+                minHarga = data[i].harga;
+                idx=i;
+            }
+        } 
+        System.out.println("Harga pakaian paling murah adalah : "+data[idx].jenis + " "+data[idx].warna +" "+data[idx].merk+" "+data[idx].ukuran+" "+ data[idx].harga +" "); 
+    } 
 }

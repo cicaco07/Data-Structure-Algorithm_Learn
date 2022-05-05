@@ -8,6 +8,7 @@ public class StackMain {
         System.out.println("2. Print ");
         System.out.println("3. Pop ");
         System.out.println("4. Peek ");
+        System.out.println("5. Pakaian termurah ");
         System.out.println("-----------------------");
         }
     public static void main(String[] args){
@@ -45,7 +46,9 @@ public class StackMain {
                 case 4:
                     stk.peek();
                     break;
+                case 5:
+                    stk.getMin();
             }
-        } while (pilih == 1 || pilih == 2 || pilih == 3 || pilih == 4);
+        } while (pilih == 1 || pilih == 2 || pilih == 3 || pilih == 4 || pilih == 5);
     }
 }
